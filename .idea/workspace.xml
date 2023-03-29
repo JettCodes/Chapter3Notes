@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f746a0-186d-4eb0-a54e-82c21b416d10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/F2A.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReturnNotes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/Return1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrayNotes2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReturnNotes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="782">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -80,11 +77,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arays.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arrayNotes2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1146" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Array2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -123,6 +136,8 @@
         <option value="$PROJECT_DIR$/node_modules/Return1.js" />
         <option value="$PROJECT_DIR$/arays.js" />
         <option value="$PROJECT_DIR$/Script.js" />
+        <option value="$PROJECT_DIR$/arrayNotes2.js" />
+        <option value="$PROJECT_DIR$/Array2.js" />
       </list>
     </option>
   </component>
@@ -144,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,6 +219,8 @@
       <workItem from="1678998393845" duration="3088000" />
       <workItem from="1679603278142" duration="2077000" />
       <workItem from="1679689757346" duration="2254000" />
+      <workItem from="1679949219982" duration="1903000" />
+      <workItem from="1680035482637" duration="2121000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678827521679</created>
@@ -223,10 +240,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13301000" />
+    <option name="totallyTimeSpent" value="17325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -268,13 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/F1A.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -284,7 +294,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReturnNotes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="782">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -306,6 +316,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/arays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -313,10 +330,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arays.js">
+    <entry file="file://$PROJECT_DIR$/arrayNotes2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="-1146" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
