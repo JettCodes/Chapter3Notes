@@ -18,9 +18,9 @@ let word15 = readLine.question("VerbING");
 let word16 = readLine.question("NounPlural");
 let word17 = readLine.question("VerbING");
 let word18 = readLine.question("Verb");
-let word18 = readLine.question("Adjective");
+let word19 = readLine.question("Adjective");
 let word20 = readLine.question("Adjective");
 
-console.log()
+console.log(``)
 
 
