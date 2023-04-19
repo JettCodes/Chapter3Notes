@@ -1,9 +1,15 @@
 const readLine = require('readline-sync');
 
 let diceRolled = [];
-let character = {
+let eyeColors= [`blue`, `green`, `brown`,]
+let death = [`Young`, `Old`, `Middle`];
+let Job = [`Merchant`, `Fighter`, `Royal`]
+let Family = [`Mom and Dad`, `Dads`, `Moms`, `Mom`, `Dad`, `Orphan`];
+let character1 = {
 
 }
+
+createChar(character1, diceRolled);
 
 function rolld6() {
   return Math.ceil(Math.random()*6)
@@ -31,8 +37,16 @@ function rollStat(list) {
     return sum(list);
 }
 
-function createChar(charcater, list,){
-    charcater.name = readLine.question("Enter Character Name: ");
+function pickRandomChoice(choices) {
+    let randomNum = Math.floor(Math.random()*choices.length);
+    return choices[randomNum];
+}
+
+function createChar(character, list,){
+    character.name = readLine.question("Enter Character Name: ");
+    character.eyeColor = pickRandomChoice(eyeColors);
+    character.Job = pickRandomChoice(Job)
+    character.Family = pickRandomChoice(Family);
     console.log('Rolling STR')
     character.strength= rollStat(diceRolled);
     console.log('Rolling DEX')
@@ -45,7 +59,9 @@ function createChar(charcater, list,){
     character.wisdom= rollStat(diceRolled);
     console.log('Rolling CHA')
     character.charisma= rollStat(diceRolled);
-    console.log(character)
+    character.luck= rolld6();
+    character.death= pickRandomChoice(death);
+    displayChar(character)
 
 
 }
@@ -53,11 +69,16 @@ function createChar(charcater, list,){
 function displayChar(char){
     console.log(`-----------------------------`)
     console.log(`Name: ${char.name}`);
+    console.log(`EyeClr: ${char.eyeColor}`)
     console.log(`STR: ${char.strength}`);
     console.log(`DEX: ${char.dexterity}`);
     console.log(`CON: ${char.constitution}`);
     console.log(`INT: ${char.intelligence}`);
     console.log(`WIS: ${char.wisdom}`);
     console.log(`CHA: ${char.charisma}`);
-
+    console.log(`LUCK: ${char.luck}`);
+    console.log(`Death Age: ${char.death}`);
+    console.log(`Class: ${char.Job}`);
+    console.log(`Family: ${char.Family}`);
+    console.log(`-----------------------------`)
 }
