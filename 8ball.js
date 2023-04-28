@@ -1,9 +1,11 @@
 const readLine=require('readline-sync');
 
-let word1 = readLine.question("Ask a question!");
-let answers=['yes', 'no', 'maybe', 'ask again', 'yikes...'];
+let words=[];
+
+let word=readLine.question("Ask a question");
+words.push(word);
+let answers=['Yes','No','Ask again'];
 
 let randomNum = Math.floor(Math.random()*answers.length);
-console.log(randomNum);
-let answer= answers[randomNum];
+let answer = answers[randomNum];
 console.log(answer);
