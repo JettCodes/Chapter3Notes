@@ -1,7 +1,5 @@
 const readLine = require('readline-sync');
 
-myOrder = []
-myCost =
 
 let order = []
 
@@ -12,14 +10,35 @@ console.log(`You chose: ${order[0]}`);
 
 let drink = []
 
-drink.push(readLine.question("Would you like a drink with this meal? \nWe have small $1.00, medium $1.75, large $2.25!"))
+drink.push(readLine.question("Would you like a drink with this meal? \n1 for yes 2 for no "))
 
-console.log(`You got a ${drink[0]}`)
+    let size = []
+if(drink == "1") {
+    size.push(readLine.question("We have small $1.00, medium $1.75, large $2.25! "));
 
-let fry = []
-
-fry.push(readLine.question("Would you like to order fries along with your order?"))
-
-if(answer == "no"){
+    console.log(`You got a ${size} drink!`)
 
 }
+if(drink == "2"){
+let fry = []
+fry.push(readLine.question("Would you like fries with this order? \n1 = Yes, 2 = No"))
+
+    let frysize= []
+
+if(fry == "1"){
+    frysize
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
